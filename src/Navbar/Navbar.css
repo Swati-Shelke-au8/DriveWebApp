@@ -1,0 +1,25 @@
+.container-fluid {
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 33.33px;
+  font-weight: 600;
+  line-height: 40.63px;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+.nav-link:active {
+  color: #ffffff;
+}

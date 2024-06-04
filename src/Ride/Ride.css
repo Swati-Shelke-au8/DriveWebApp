@@ -1,0 +1,110 @@
+#ride {
+  .ride-container {
+    background-image: url(../assets/images/carbg.svg),
+      url(../assets/images/image-removebg-preview.svg);
+    padding: 20px;
+    background-position: center, left;
+    background-size: cover, auto;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: saturation;
+
+    h1 {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 48.76px;
+      text-align: start;
+      color: #3b4047;
+      margin-left: 25%;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: start;
+      color: #333333;
+      margin-left: 25%;
+      margin-top: 3rem;
+    }
+  }
+  .img-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: -2%;
+  }
+
+  .middle-div {
+    margin: 5rem 0rem;
+    h1 {
+      font-family: Playfair Display;
+      font-size: 58.21px;
+      font-weight: 400;
+      line-height: 83.44px;
+      text-align: left;
+      color: #002459;
+      margin-top: 2rem;
+      span {
+        font-size: 67.91px;
+        font-weight: 600;
+        letter-spacing: 0.1px;
+      }
+    }
+    p {
+      font-family: Neue Haas Grotesk Display Pro;
+      font-size: 29.11px;
+      font-weight: 300;
+      line-height: 43.66px;
+      letter-spacing: 0.4px;
+      text-align: left;
+      color: #002459;
+      margin: 3rem 0rem;
+    }
+    .getStartedBtn {
+      font-size: 23.84px;
+      font-weight: 400;
+      line-height: 29.06px;
+      color: #ffffff;
+      background-color: #000000;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-top: 1rem;
+      margin-left: -80%;
+    }
+    .needDrive,
+    .orderRide,
+    .videoPlay {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .section-third {
+    padding: 4rem 5%;
+    background-color: #000000;
+    color: #ffffff;
+    h1 {
+      font-family: Playfair Display;
+      font-size: 58.21px;
+      font-weight: 400;
+      line-height: 83.44px;
+      text-align: left;
+      color: #bffb4f;
+      margin-top: 2rem;
+      span {
+        font-size: 67.91px;
+        font-weight: 600;
+        letter-spacing: 0.1px;
+        color: #ffffff;
+      }
+    }
+    p {
+      font-family: Neue Haas Grotesk Display Pro;
+      font-size: 29.11px;
+      font-weight: 300;
+      line-height: 43.66px;
+      letter-spacing: 0.4px;
+      text-align: left;
+      color: #ffffff;
+    }
+  }
+}
